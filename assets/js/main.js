@@ -1,10 +1,14 @@
-/**
-* Template Name: iPortfolio
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+// modify age
+function updateAge() {
+  const birthYear = 2004; // Your birth year
+  const currentYear = new Date().getFullYear(); // Get the current year
+  const age = currentYear - birthYear; // Calculate the age
+  const ageElement = document.getElementById('age'); // Select the span element containing the age
+  ageElement.textContent = age + ' years'; // Update the text content to display the new age
+}
+// Call the function to update the age on page load
+updateAge();
+
 (function() {
   "use strict";
 
