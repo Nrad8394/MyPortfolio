@@ -1,4 +1,4 @@
-Portfolio Website
+**Portfolio Website**
 
 A modern, responsive portfolio website showcasing the work and expertise of Benjamin Karanja, a passionate Software Developer, Network Expert, and UI/UX Designer.
 
